@@ -1,3 +1,3 @@
 # General-Problems
 
-- This file contains general problem sets
+- This folder contains **general** problem sets.
