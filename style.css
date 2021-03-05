@@ -1,0 +1,50 @@
+/*body of page*/
+body {
+    background-color: black;
+    margin: 0;
+}
+
+/*header of page*/
+header {
+    color: goldenrod;
+    background-color: rgb(139, 53, 53);
+    text-align: center;
+    margin-top: 0;
+    padding: 20px;
+    font-size: 44px;
+    font-family: Impact, sans-serif;
+}
+
+/*list of stars*/
+ul {
+    font-size: 100px;
+    text-align: center;
+}
+
+/*star item*/
+ul li {
+    list-style: none;
+    display: inline-block;
+    color: grey;
+}
+
+/*result heading*/
+#result {
+    font-size: 42px;
+    text-align: center;
+    color: rgb(248, 211, 217);
+    font-style: italic;
+}
+
+/*part of result heading*/
+span {
+    color: rgb(139, 53, 53);
+    font-weight: bold;
+}
+
+/*responsive design for stars*/
+@media screen and (max-width: 700px) {
+    header {font-size: 40px;}
+    ul {font-size: 70px;}
+    #result {font-size: 36px;}
+}
